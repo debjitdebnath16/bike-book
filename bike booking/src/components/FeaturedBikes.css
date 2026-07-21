@@ -1,0 +1,17 @@
+.featured {
+  padding: 80px 8%;
+  background: #f8fafc;
+}
+
+.featured h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 40px;
+  color: #111827;
+}
+
+.bike-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}

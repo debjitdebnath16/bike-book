@@ -1,0 +1,18 @@
+.bikes-page {
+  padding: 80px 8%;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.bikes-page h1 {
+  text-align: center;
+  font-size: 42px;
+  color: #111827;
+  margin-bottom: 40px;
+}
+
+.bike-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
